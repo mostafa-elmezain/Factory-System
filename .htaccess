@@ -1,0 +1,21 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^Home$  index.php [NC,QSA]
+RewriteRule ^Login$  login.php [NC,QSA]
+RewriteRule ^fatora$  fatora.php [NC,QSA]
+RewriteRule ^fatoraSearch$  fatoraSearch.php [NC,QSA]
+RewriteRule ^fatoraBack$  fatoraBack.php [NC,QSA]
+RewriteRule ^customer$  customer.php [NC,QSA]
+RewriteRule ^customerHistory$  customerHistory.php [NC,QSA]
+RewriteRule ^store$  store.php [NC,QSA]
+RewriteRule ^banks$  banks.php [NC,QSA]
+RewriteRule ^treasury$  treasury.php [NC,QSA]
+RewriteRule ^ChangePassword$  changepassword.php [NC,QSA]
+RewriteRule ^AddNew$  addnewworker.php [NC,QSA]
+RewriteRule ^Record$  recordattendance.php [NC,QSA]
+RewriteRule ^WorkerList$  workerlist.php [NC,QSA]
+RewriteRule ^control$  controlworker.php [NC,QSA]
+RewriteRule ^addblance$  addblance.php [NC,QSA]
